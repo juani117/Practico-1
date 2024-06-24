@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que es un scout - ALMAFUERTE</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+
+    <header>
+      <h1 id="logo">Almafuerte</h1> <!--Logo-->
+
+      <nav id="menu" class="menuNormal"> <!--Menú de navegación-->
+        <div id="btnMenu"><a>Menú</a></div>
+        <ul class="barra">
+          <li><a href="/html/index.html">Home</a></li>
+          <li><a href="/html/fundacion.html">Fundación</a></li>
+          <li><a href="/html/actividades.html">Actividades</a></li>
+          <button id="btnFondo">Modo oscuro/claro</button>
+        </ul>
+      </nav>
+        
+  </header>
+  
+  <h2 id="titulo">Qué es un Scout</h2> <!--Título-->
+  <div class="ConIndice">
+    
+    <section class="main">
+      <h2>Índice</h2>
+        <ul class="indice"> <!--Índice-->
+          <li>Propósito</li>
+          <li>Días y horarios</li>
+          <li>Quién fundo a los Scouts</li>
+          <li>Qué se busca enseñar</li>
+          <li>Activides</li>
+          <li>A qué edad puedo entrar?</li>
+          <li>Qué es la ley scout</li>
+        </ul>
+       
+    </section>
+  
+    <aside  class="sidebar"> <!--Fotos-->
+      <h3>La flor de lis es la flor mundial del movimiento scout</h3>
+      <img src="/img/FlorDeLis.jpg" alt="Flor de lis">
+    </aside>
+  </div>  
+  <div id="Proposito"> <!--Propósito-->
+    <h3>¿Cuál es el proposito de ser scout?</h3>
+    <p>
+      Somos una organización sin fines de lucro que, a través del trabajo de adultos voluntarios en todo el territorio nacional,
+      ofrecemos hace más de 100 años una propuesta de educación no formal destinada a niños, niñas y jóvenes.
+      Actualmente contamos con 75 mil miembros entre jóvenes, con un rango etario de 5 a 21 años,
+      y adultos voluntarios que trabajan diariamente en la construcción de un mundo mejor y el cumplimiento de la misión del Movimiento Scout,
+      más no estamos solos pues formamos parte de la Organización Mundial del Movimiento Scout y de los 50 millones de scouts que hay en el mundo
+      trabajando diariamente por transformar la realidad en la que vivimos.
+    </p>   
+  </div>
+  <footer>
+    <article id="DiaHorario"> <!--Horario-->
+      <h3>Días y Horarios</h3>
+      <p>Los días en los que se hacen las actividades son los sábados de 15:00 a 18:00 horario verano y en el horario invierno 14:00 a 17:00. Los esperámos!</p>
+    </article>
+    <article class="contacto"> <!--Contacto-->
+      <h1>Si querés saber más, dejanos tus datos y te contactámos!</h1>
+      <form action="" id="formContacto">
+        <input type="text" name="nombreCompleto" placeholder="Nombre y Apellido" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="number" name="telefono" placeholder="Teléfono" required>
+        <div id="validacion">
+          <input type="text" name="captcha" placeholder="Escriba lo que ve en la foto" required>
+          <label> <img id="captchaImg" src="" alt="CAPTCHA"> </label>
+        </div>
+        <input type="submit" value="Enviar" id="btnEnviar">
+      </form>
+      <p id="mensajeCaptcha"></p>
+    </article>
+  </footer>
+
+   
+
+<script src="/js/index.js"></script>
+</body>
+</html>
